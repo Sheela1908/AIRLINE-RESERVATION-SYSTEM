@@ -1,0 +1,80 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #007BFF; /* Bootstrap primary color */
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #FFD700; /* Gold color on hover */
+}
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-logo {
+  width: 600px; /* Adjust size as needed */
+}
+
+.home-search-form {
+  margin: 20px 0;
+}
+
+.home-search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 400px; /* Fixed width */
+}
+
+.home-welcome-message {
+  font-size: 24px;
+  color: #333; /* Darker text color */
+}
+
+.home-description {
+  font-size: 16px;
+  color: #555;
+}
+/* Footer styles */
+.footer {
+  background-color: #007BFF; /* Match navbar color */
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer-link {
+  color: #FFD700; /* Gold color for links */
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
